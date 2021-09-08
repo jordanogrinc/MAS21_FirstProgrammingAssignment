@@ -21,6 +21,9 @@
                                 <state key="normal" title="Hello Jordan">
                                     <color key="titleColor" systemColor="systemGrayColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="HelloButtonPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DOx-UY-uek"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUq-hE-aOR">
                                 <rect key="frame" x="184" y="493" width="46" height="30"/>
@@ -36,9 +39,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDt-Tn-kde">
-                                <rect key="frame" x="188" y="260" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Jordan's App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UW1-aD-I7y">
+                                <rect key="frame" x="156.5" y="301" width="101" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,11 +54,16 @@
                             <constraint firstItem="tUr-N0-8Om" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8ag-Id-ZVd"/>
                             <constraint firstItem="KUq-hE-aOR" firstAttribute="top" secondItem="ysO-JL-KWw" secondAttribute="bottom" constant="30" id="Idu-D3-S69"/>
                             <constraint firstItem="ysO-JL-KWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZNu-gM-KMg"/>
+                            <constraint firstItem="UW1-aD-I7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEP-Qq-hny"/>
                             <constraint firstItem="TGB-eL-pfg" firstAttribute="top" secondItem="KUq-hE-aOR" secondAttribute="bottom" constant="30" id="dCb-vF-xkV"/>
                             <constraint firstItem="ysO-JL-KWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i4N-yL-R2f"/>
                             <constraint firstItem="KUq-hE-aOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xvv-tw-pFH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="AppTitle" destination="UW1-aD-I7y" id="1BE-Z8-hfe"/>
+                        <outlet property="LoginText" destination="tUr-N0-8Om" id="GWf-gk-LiG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
