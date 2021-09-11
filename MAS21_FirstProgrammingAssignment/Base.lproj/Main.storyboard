@@ -15,55 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysO-JL-KWw">
-                                <rect key="frame" x="163.5" y="433" width="87" height="30"/>
-                                <state key="normal" title="Hello Jordan">
-                                    <color key="titleColor" systemColor="systemGrayColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="HelloButtonPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DOx-UY-uek"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUq-hE-aOR">
-                                <rect key="frame" x="184" y="493" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGB-eL-pfg">
-                                <rect key="frame" x="164" y="553" width="86" height="30"/>
-                                <state key="normal" title="Third Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login/ Create Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUr-N0-8Om">
-                                <rect key="frame" x="122.5" y="382" width="169" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Jordan's App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UW1-aD-I7y">
-                                <rect key="frame" x="156.5" y="301" width="101" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="TGB-eL-pfg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0uz-ge-FCG"/>
-                            <constraint firstItem="ysO-JL-KWw" firstAttribute="top" secondItem="tUr-N0-8Om" secondAttribute="bottom" constant="30" id="7qE-1N-r9k"/>
-                            <constraint firstItem="tUr-N0-8Om" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8ag-Id-ZVd"/>
-                            <constraint firstItem="KUq-hE-aOR" firstAttribute="top" secondItem="ysO-JL-KWw" secondAttribute="bottom" constant="30" id="Idu-D3-S69"/>
-                            <constraint firstItem="ysO-JL-KWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZNu-gM-KMg"/>
-                            <constraint firstItem="UW1-aD-I7y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEP-Qq-hny"/>
-                            <constraint firstItem="TGB-eL-pfg" firstAttribute="top" secondItem="KUq-hE-aOR" secondAttribute="bottom" constant="30" id="dCb-vF-xkV"/>
-                            <constraint firstItem="ysO-JL-KWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i4N-yL-R2f"/>
-                            <constraint firstItem="KUq-hE-aOR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xvv-tw-pFH"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="AppTitle" destination="UW1-aD-I7y" id="1BE-Z8-hfe"/>
-                        <outlet property="LoginText" destination="tUr-N0-8Om" id="GWf-gk-LiG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,9 +27,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
