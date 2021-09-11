@@ -20,8 +20,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyE-fV-0Ue">
                                 <rect key="frame" x="176" y="433" width="62" height="30"/>
                                 <state key="normal" title="Let's Go!">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" name="AccentColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="b3x-IM-rRa" kind="show" id="bCe-eD-NWG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jordan's Restaurant Picker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ct-Qp-9UB">
                                 <rect key="frame" x="75" y="355.5" width="264.5" height="27.5"/>
@@ -48,6 +51,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Cb-J1-ZXf">
+            <objects>
+                <viewController id="b3x-IM-rRa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nwD-bd-V41">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HoL-Vg-0hy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yPf-jJ-vZg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2KB-Wq-j5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="76"/>
         </scene>
     </scenes>
     <resources>
